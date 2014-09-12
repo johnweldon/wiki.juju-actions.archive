@@ -1,8 +1,3 @@
-title: Juju Actions - Use Cases
-
-
-[TOC]
-
 
 ## API Oriented
 
