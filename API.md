@@ -1,20 +1,52 @@
+# Summary
+
+
 ## API Methods - Client facing
 
+- GetActionDefinitions
 
-    GetActionDefinitions
+- AddActions
+- GetActions
+- CancelActions
 
-    AddActions
-    GetActions
-    CancelActions
-
-    WatchActions
+- WatchActions
 
 
 ## API Methods - Jujuc facing
 
-    GetActions
-    StartActions
-    FinishActions
+- GetActions
+- StartActions
+- FinishActions
 
-    WatchActions
-    
+- WatchActions
+
+
+
+# Details
+
+
+## Client Facing
+
+### `GetActionDefinitions`
+
+### `AddActions`
+
+### `GetActions`
+
+### `CancelActions`
+
+### `WatchActions`
+
+
+## Jujuc Facing
+
+### `GetActions`
+
+### `StartActions`
+
+### `FinishActions`
+
+### `WatchActions`
+
+
+
