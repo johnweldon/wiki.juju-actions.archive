@@ -1,4 +1,3 @@
-
 ## API Oriented
 
 ###Discover list of Actions for a given Charm
