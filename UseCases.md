@@ -6,9 +6,8 @@
 
 ## API Oriented
 
-**Goal**: Discover list of Actions for a given Charm
+###Discover list of Actions for a given Charm
 
-**Details**:
 
 1. User ‘asks’ for list of available Actions for a given Charm
 1. ‘Juju’ (API) delegates request to a specific Unit of a Service of this Charm
@@ -24,9 +23,8 @@ Variations:
 
 
 
-**Goal**: Discover usage parameters for given Action
+###Discover usage parameters for given Action
 
-**Details**:
 
 1. User asks for usage and parameters guidance for a given Action
 1. API delegates request to specific Unit
@@ -41,9 +39,8 @@ Variations:
 
 
 
-**Goal**: Queue an Action on a given Unit
+###Queue an Action on a given Unit
 
-**Details**:
 
 1. User invokes Action and passes in Action specific parameters 
 1. ...
@@ -51,53 +48,47 @@ Variations:
 
 
 
-**Goal**: Queue an Action on a given Service
+###Queue an Action on a given Service
 
-**Details**:
 
 1. ...
 
 
 
 
-**Goal**: Discover list of previously queued Actions on a Unit
+###Discover list of previously queued Actions on a Unit
 
-**Details**:
 
 1. ...
 
 
 
 
-**Goal**: Discover list of previously queued Actions on a Service
+###Discover list of previously queued Actions on a Service
 
-**Details**:
 
 1. ...
 
 
 
 
-**Goal**: Discover status of previously queued Action
+###Discover status of previously queued Action
 
-**Details**:
 
 1. ...
 
 
 
 
-**Goal**: Cancel a previously queued Action
+###Cancel a previously queued Action
 
-**Details**:
 
 1. ...
 
 
 
 
-**Goal**: Discover results of previously queued Actions
+###Discover results of previously queued Actions
 
-**Details**:
 
 1. ...
