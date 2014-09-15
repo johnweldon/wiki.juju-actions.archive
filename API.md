@@ -4,20 +4,17 @@
 ## API Methods - Client facing
 
 - GetActionDefinitions
-
 - AddActions
 - GetActions
 - CancelActions
-
 - WatchActions
 
 
-## API Methods - Jujud facing
+## API Methods - internal/Jujud facing
 
 - GetActions
 - StartActions (maybe UpdateActions, or ActionsUpdate?)
 - FinishActions
-
 - WatchActions
 
 
@@ -38,7 +35,7 @@
 ### `WatchActions`
 
 
-## Jujud Facing
+## internal/Jujud Facing
 
 ### `GetActions`
 
