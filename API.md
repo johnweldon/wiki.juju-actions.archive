@@ -12,10 +12,10 @@
 - WatchActions
 
 
-## API Methods - Jujuc facing
+## API Methods - Jujud facing
 
 - GetActions
-- StartActions
+- StartActions (maybe UpdateActions, or ActionsUpdate?)
 - FinishActions
 
 - WatchActions
@@ -38,7 +38,7 @@
 ### `WatchActions`
 
 
-## Jujuc Facing
+## Jujud Facing
 
 ### `GetActions`
 
