@@ -1,6 +1,6 @@
 Juju Actions are a work in progress. This wiki will be a starting point to link all the development artifacts.
 
-[[Juju actions CLI spec]]
+[[Juju Actions CLI spec]]
 
 [[API]] Docs
 
