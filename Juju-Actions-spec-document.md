@@ -1,1 +1,1 @@
-# (Juju-Actions Draft spec)[https://docs.google.com/document/d/14W1-QqB1pXZxyZW5QzFFoDwxxeQXBUzgj8IUkLId6cc/edit#heading=h.q6wtcjv2r9h]
+# [Juju-Actions Draft spec](https://docs.google.com/document/d/14W1-QqB1pXZxyZW5QzFFoDwxxeQXBUzgj8IUkLId6cc/edit#heading=h.q6wtcjv2r9h)
