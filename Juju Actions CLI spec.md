@@ -2,15 +2,15 @@
 
 ## Contents
  - [Action commands](#action-commands)
-   - actions
-   - do
-   - wait
-   - queue
-   - kill
+   - juju actions
+   - juju do
+   - juju wait
+   - juju queue
+   - juju kill
  - [Interacting with an Action](#interacting-with-an-action)
-   - status
-   - log
-   - fetch
+   - juju status
+   - juju log
+   - juju fetch
  - [Hook interaction](#hook-interaction)
    - action-get
    - action-set
