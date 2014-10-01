@@ -2,50 +2,50 @@
 
 ## Contents
  - [Action commands](#action-commands)
-   - juju actions
-   - juju do
-   - juju wait
-   - juju queue
-   - juju kill
+   - `juju actions`
+   - `juju do`
+   - `juju wait`
+   - `juju queue`
+   - `juju kill`
  - [Interacting with an Action](#interacting-with-an-action)
-   - juju status
-   - juju log
-   - juju fetch
+   - `juju status`
+   - `juju log`
+   - `juju fetch`
  - [Hook interaction](#hook-interaction)
-   - action-get
-   - action-set
-   - action-fail
+   - `action-get`
+   - `action-set`
+   - `action-fail`
 
 ---
 
 # Action commands
 
-#### juju actions
+#### `juju actions`
 
-#### juju do
+#### `juju do`
 
-#### juju wait
+#### `juju wait`
 
-#### juju queue
+#### `juju queue`
 
-#### juju kill 
+#### `juju kill`
 
 ---
 
 # Interacting with an Action
 
-#### juju status
+#### `juju status`
 
-#### juju log
+#### `juju log`
 
-#### juju fetch 
+#### `juju fetch`
 
 ---
 
 # Hook interaction
 
-#### action-get
+#### `action-get`
 
-#### action-set
+#### `action-set`
 
-#### action-fail
+#### `action-fail`
