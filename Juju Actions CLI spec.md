@@ -22,7 +22,7 @@
 
 # Action commands
 
-#### juju actions <unit name>
+#### juju actions \<unit name\>
 A user can list the actions that a unit exports:
 ```
 $ juju actions mysql
