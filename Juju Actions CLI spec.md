@@ -2,7 +2,7 @@
 
 ## Contents
  - [Action commands](#action-commands)
-   - `juju actions`
+   - `juju actions` list the available actions for a unit
    - `juju do`
    - `juju wait`
    - `juju queue`
@@ -20,7 +20,17 @@
 
 # Action commands
 
-#### `juju actions`
+#### juju actions
+A user can list the actions that a unit exports:
+```
+$ juju actions mysql
+backup         benchmark      dump           ps             restart        
+restore        start          stop           test
+```
+```
+$ juju actions mysql/2
+pause          resume         sync
+```
 
 #### `juju do`
 
