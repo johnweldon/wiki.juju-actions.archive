@@ -32,30 +32,30 @@ $ juju actions mysql/2
 pause          resume         sync
 ```
 
-#### `juju do`
+#### juju do
 
-#### `juju wait`
+#### juju wait
 
-#### `juju queue`
+#### juju queue
 
-#### `juju kill`
+#### juju kill
 
 ---
 
 # Interacting with an Action
 
-#### `juju status`
+#### juju status
 
-#### `juju log`
+#### juju log
 
-#### `juju fetch`
+#### juju fetch
 
 ---
 
 # Hook interaction
 
-#### `action-get`
+#### action-get
 
-#### `action-set`
+#### action-set
 
-#### `action-fail`
+#### action-fail
