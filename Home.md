@@ -42,7 +42,7 @@ API includes the apiserver, and api (client) packages.
 
 ## Refactoring
 
- - [ ] timestamps
+ - [ ] timestamps **in progress**
  - [ ] require name in action
 
 # Links
