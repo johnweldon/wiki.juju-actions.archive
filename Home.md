@@ -32,15 +32,6 @@ Juju Actions are a work in progress. This wiki will be a starting point to link 
  - [x] Describe available Actions
  - [ ] Archive Actions?
 
-## API Client
-
- - [ ] ServiceCharmActions
- - [ ] Cancel
- - [ ] ListCompleted
- - [ ] ListPending
- - [ ] ListAll
- - [ ] Enqueue
-
 ## CLI
 
  - [ ] actions
