@@ -7,13 +7,12 @@ Juju Actions are a work in progress. This wiki will be a starting point to link 
 
 ---
 
-> Pending Reviews:
- - [#917: ServiceCharmActions](https://github.com/juju/juju/pull/917)
+> Pending Reviews:)
+ - `@binary132` [Add `juju actions` command to CLI #945](https://github.com/juju/juju/pull/945)
 
 ---
 
 > In progress:
- - `@binary132` CLI `juju actions`
  - `@johnweldon` Refactoring timestamps
 
 ## State
