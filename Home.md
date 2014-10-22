@@ -5,6 +5,8 @@ Juju Actions are a work in progress. This wiki will be a starting point to link 
 > Demo CLI for review
  - [#8 `juju actions`](https://github.com/juju-actions/juju/pull/8)
 
+---
+
 > Pending Reviews:
  - [#917: ServiceCharmActions](https://github.com/juju/juju/pull/917)
 
