@@ -55,8 +55,8 @@ API includes the apiserver, and api (client) packages.
 
 [Refactoring Issues](https://github.com/juju-actions/juju/issues?q=is%3Aopen+is%3Aissue+label%3Arefactoring)
 
- - [ ] timestamps **in progress**
- - [ ] require name in action
+ - [ ] [include timestamps](https://github.com/juju-actions/juju/issues/6) **in progress**
+ - [ ] [require name in action](https://github.com/juju-actions/juju/issues/7) 
 
 # Links
 
