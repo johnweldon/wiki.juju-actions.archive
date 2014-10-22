@@ -40,7 +40,7 @@ API includes the apiserver, and api (client) packages.
 
 ## CLI
 
- - [ ] actions
+ - [ ] actions **in progress**
  - [ ] status
  - [ ] log
  - [ ] fetch
