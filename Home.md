@@ -2,19 +2,27 @@ Juju Actions are a work in progress. This wiki will be a starting point to link 
 
 # Status
 
+> Pending Reviews:
+ - [#917: ServiceCharmActions](https://github.com/juju/juju/pull/917)
+
 ## State
 
  - [x] actionDoc, actionResultDoc
  - [x] watcher
  - [x] cleanup
 
+## Action commands
+
+ - [x] action-get
+ - [x] action-set
+ - [x] action-fail
 
 ## Uniter
 
- - [x] action-set
- - [x] action-fail
- - [ ] @binary132 ?? :)
-
+ - [x] Listen for Actions for unit
+ - [x] Fire actions
+ - [x] Return results
+ - [x] Handle Action error states
 
 ## ApiServer
 
@@ -24,6 +32,14 @@ Juju Actions are a work in progress. This wiki will be a starting point to link 
  - [x] Describe available Actions
  - [ ] Archive Actions?
 
+## API Client
+
+ - [x] ServiceCharmActions
+ - [] Cancel
+ - [] ListCompleted
+ - [] ListPending
+ - [] ListAll
+ - [] Enqueue
 
 ## CLI
 
@@ -32,16 +48,10 @@ Juju Actions are a work in progress. This wiki will be a starting point to link 
  - [ ] do
  - [ ] archive?
 
-
 ## Refactoring
 
  - [ ] timestamps
  - [ ] require name in action
- - [ ] ...
-
-
-
-
 
 # Links
 
