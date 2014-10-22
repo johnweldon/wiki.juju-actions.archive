@@ -24,7 +24,8 @@ Juju Actions are a work in progress. This wiki will be a starting point to link 
  - [x] Return results
  - [x] Handle Action error states
 
-## ApiServer
+## API
+API includes the apiserver, and api (client) packages.
 
  - [x] List Actions
  - [x] Enqueue Actions
