@@ -45,7 +45,7 @@ API includes the apiserver, and api (client) packages.
 
 ## CLI
 
- - [ ] actions **[PR #945](https://github.com/juju/juju/pull/945)**
+ - [x] actions **[PR #945](https://github.com/juju/juju/pull/945)**
  - [ ] status
  - [ ] log
  - [ ] fetch
