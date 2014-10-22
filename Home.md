@@ -8,8 +8,8 @@ Juju Actions are a work in progress. This wiki will be a starting point to link 
 ---
 
 > In progress:
- - @binary132 CLI `juju actions`
- - @johnweldon Refactoring `timestamps`
+ - `@binary132` CLI `juju actions`
+ - `@johnweldon` Refactoring `timestamps`
 
 ## State
 
