@@ -5,6 +5,9 @@ Juju Actions are a work in progress. This wiki will be a starting point to link 
 > Pending Reviews:
  - [#917: ServiceCharmActions](https://github.com/juju/juju/pull/917)
 
+> In progress:
+ - CLI `juju actions`
+
 ## State
 
  - [x] actionDoc, actionResultDoc
@@ -37,8 +40,13 @@ API includes the apiserver, and api (client) packages.
 
  - [ ] actions
  - [ ] status
+ - [ ] log
+ - [ ] fetch
  - [ ] do
  - [ ] archive?
+ - [ ] kill
+ - [ ] queue
+ - [ ] wait
 
 ## Refactoring
 
