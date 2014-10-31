@@ -22,15 +22,31 @@
 
 # Action commands
 
-#### juju actions \<unit name\>
-A user can list the actions that a unit exports:
+#### juju actions \<service name\>
+A user can list the actions that a service exports:
 ```
 $ juju actions mysql
 backup         benchmark      dump           ps             restart        
 restore        start          stop           test
 ```
 
-#### juju do
+#### juju do \<unit name\>
+A user can trigger execution of a scripted action on a unit:
+```
+$ juju do mysql/2 pause 
+finished
+$ juju do mysql/3 backup --async
+action: <UUID>
+$ juju status <UUID>
+result:
+  status: success
+  file: 
+    size: 873.2 
+    units: GB
+    name: foo.sql
+$ juju do mysql/3 backup --async --params parameters.yml
+...
+```
 
 #### juju wait
 
