@@ -1,6 +1,6 @@
 Juju Actions are a work in progress. This wiki will be a starting point to link all the development artifacts.
 
-[See doc/actions.md for more details](https://github.com/juju-actions/juju/blob/actions/doc/actions.md).
+##[See doc/actions.md for more details](https://github.com/juju-actions/juju/blob/actions/doc/actions.md).
 
 # Status
 
