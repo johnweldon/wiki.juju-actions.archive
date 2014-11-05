@@ -68,8 +68,105 @@ $ juju do mysql/3 backup --async --params parameters.yml
 
 # Hook interaction
 
+See jujud commands available via `juju help-tool <command name>`.
+
 #### action-get
+
+```bash
+Usage: action-get [options] [<key>[.<key>.<key>...]]
+Purpose: get action parameters
+
+options:
+--format  (= smart)
+    specify output format (json|smart|yaml)
+-o, --output (= "")
+    specify an output file
+
+action-get will print the value of the parameter at the given key, serialized
+as YAML.  If multiple keys are passed, action-get will recurse into the param
+map as needed.
+```
+
+Ex. 1:
+```bash
+action-get --format=yaml
+```
+RESULTS:
+```yaml
+outfile:
+  name: foo.gz
+compression:
+  kind: gzip
+  quality: 3
+```
 
 #### action-set
 
+```bash
+usage: action-set <key>=<value> [<key>=<value> ...]
+purpose: set action results
+
+action-set adds the given values to the results map of the Action.  This map
+is returned to the user after the completion of the Action.
+```
+
+Ex. 1:
+```bash
+action-set foo=5 bar=hello baz.x=3 baz.y=4
+```
+
+RESULT:
+```yaml
+foo: 5
+bar: hello
+baz:
+  x: 3
+  y: 4
+```
+
+Ex. 2:
+```bash
+action-set foo.bar=5 foo.bar.baz=outfile
+action-set foo=5 
+action-set bar.foo=3 bar.baz.foo=hello
+action-set bar.baz.bar=4.3
+```
+RESULT:
+
+```yaml
+foo: 5 # Note foo got overwritten in the second invocation.
+bar: 
+  foo: 3
+  baz: 
+    foo: hello
+    bar: 4.3
+```
+
+Ex. 3
+```bash
+action-set outfile.size=10G
+action-set foo.bar=2
+action-set foo.baz.val=3
+action-set foo.bar.zab=4
+action-set foo.baz=1
+```
+RESULT:
+```yaml
+outfile:
+  size: "10G"
+foo:
+  bar:
+    zab: "4"
+  baz: "1"
+```
+
 #### action-fail
+
+```bash
+usage: action-fail ["<failure message>"]
+purpose: set action fail status with message
+
+action-fail sets the action's fail state with a given error message.  Using
+action-fail without a failure message will set a default message indicating a
+problem with the action.
+```
