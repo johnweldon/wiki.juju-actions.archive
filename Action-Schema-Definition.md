@@ -6,7 +6,7 @@ Discuss the concrete schema for actions based on different examples.
 
 ### Database Foo
 
-```
+```yaml
 # actions.yaml
 actions:
   snapshot:
