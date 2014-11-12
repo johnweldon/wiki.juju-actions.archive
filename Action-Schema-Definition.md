@@ -13,13 +13,13 @@ Discuss the concrete schema for actions based on different examples.
 
 ```yaml
 # actions.yaml
-actions:
-  snapshot:
-    description: Take a snapshot of the database.
-    params:
-      title: Snapshot params
-      description: Arguments to snapshot.
-      type: object
+actions:                                           # Go representation:
+  snapshot:                                        # Name of the action script.
+    description: Take a snapshot of the database.  # charm.Actions.ActionSpecs["snapshot"].Description
+    params:                                        # charm.Actions.ActionSpecs["snapshot"].Params
+      title: Snapshot params                       # map[string]interface{} representing JSON-Schema.
+      description: Arguments to snapshot.          # Note that this is valid JSON-Schema with
+      type: object                                 # $schema keys stripped.
       properties:
         outfile:
           description: The file to write out to.
