@@ -15,7 +15,7 @@ Juju Actions are a work in progress. This wiki will be a starting point to link 
 ---
 
 > In progress:
- - `@johnweldon` Refactoring timestamps
+ - `@johnweldon` Refactoring API
 
 ## State
 
@@ -43,6 +43,7 @@ API includes the apiserver, and api (client) packages.
  - [x] Enqueue Actions
  - [x] Cancel Actions
  - [x] Describe available Actions
+ - [x] Find Actions matching short UUID prefix
  - [ ] Archive Actions?
 
 ## CLI
@@ -61,7 +62,7 @@ API includes the apiserver, and api (client) packages.
 
 [Refactoring Issues](https://github.com/juju-actions/juju/issues?q=is%3Aopen+is%3Aissue+label%3Arefactoring)
 
- - [ ] [include timestamps](https://github.com/juju-actions/juju/issues/6) **in progress**
+ - [x] [include timestamps](https://github.com/juju-actions/juju/issues/6) **in progress**
  - [ ] [require name in action](https://github.com/juju-actions/juju/issues/7) 
 
 # Links
